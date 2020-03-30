@@ -1,0 +1,2 @@
+include ':app', ':aoplib'
+rootProject.name='AOPDemo'
