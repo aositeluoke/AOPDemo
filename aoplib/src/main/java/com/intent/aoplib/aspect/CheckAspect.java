@@ -32,7 +32,6 @@ public class CheckAspect {
 
     @Around("checkNetPointcut(checkNet)")
     public Object checkNet(ProceedingJoinPoint joinPoint,CheckNet checkNet) throws Throwable {
-        Log.i(TAG, "checkNet value: " + checkNet.value());
         MethodSignature signature = (MethodSignature) joinPoint.getSignature();
         CheckNet net = signature.getMethod().getAnnotation(CheckNet.class);
 

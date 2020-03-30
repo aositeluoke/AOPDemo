@@ -19,8 +19,8 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="toNext"
-        android:text="挑战" />
+        android:onClick="onClickCheckNetwork"
+        android:text="检查是否有网络" />
 
     <Button
         android:layout_width="wrap_content"

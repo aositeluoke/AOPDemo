@@ -25,8 +25,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    @CheckNet(value = "12")
-    public void toNext(View view) {
+    @CheckNet
+    public void onClickCheckNetwork(View view) {
         Log.i(TAG, "toNext: 有网络跳转");
 
     }
